@@ -1,21 +1,19 @@
 {
   "name": "0g-research-portal",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@0glabs/0g-ts-sdk": "latest",
-    "ethers": "^6.7.0",
-    "lucide-react": "latest",
-    "buffer": "^6.0.3",
-    "stream-browserify": "^3.0.0",
-    "crypto-browserify": "^3.12.0"
+    "@0glabs/0g-ts-sdk": "0.1.2",
+    "ethers": "^6.11.1",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
   }
 }
