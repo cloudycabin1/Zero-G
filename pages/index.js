@@ -72,4 +72,4 @@ export default function OGPortal() {
       </div>
     </div>
   );
-}
+      }
